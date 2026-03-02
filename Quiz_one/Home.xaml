@@ -1,0 +1,42 @@
+﻿<Page x:Class="Quiz_one.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Quiz_one"
+      mc:Ignorable="d" 
+      Background="Silver"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Home">
+
+    <Grid>
+
+        <StackPanel>
+
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Button  Margin="5" Padding="5" Background="#FF39439E" Foreground="White" Content="Home Page"/>
+                <Button  Margin="5" Padding="5" Background="White"  Content="Profile" Click="Button_Click_1"/>
+                <Button   Margin="5" Padding="5" Background="White"  Content="Logout" Click="Button_Click"/>
+            </StackPanel>
+
+
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Name : "/>
+                <Label Content="Saif Alaa"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Age : "/>
+                <Label Content="16"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Dapartment : "/>
+                <Label Content="Cs"/>
+            </StackPanel>
+        </StackPanel>
+        
+        
+    </Grid>
+</Page>
